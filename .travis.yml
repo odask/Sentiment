@@ -6,3 +6,9 @@ jdk:
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 
+notifications:
+email:
+recipients:
+- odaskaug89@gmail.com
+on_success: never
+on_failure: always
